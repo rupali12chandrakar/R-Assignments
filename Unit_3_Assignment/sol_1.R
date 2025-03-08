@@ -1,0 +1,14 @@
+> logical_vec<-c(TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE)
+> length(logical_vec)
+[1] 12
+> logical_vec
+ [1]  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE
+#OR
+> log_vec<-rep(c(TRUE,FALSE),times=6)
+> log_vec
+ [1]  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE
+#OR
+> logic_vec<-rep(c(TRUE,FALSE),length.out=12)
+> logic_vec
+ [1]  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE
+
